@@ -11,7 +11,7 @@
   import Cronometro from './Cronometro.vue';
   import Botao from './Botão.vue'
   export default defineComponent({
-    name: "Temporizador",
+    name: "Temporizador-Tracker",
     emits: ['aoTemporizadorFinalizado'],
     components: {
       Cronometro,

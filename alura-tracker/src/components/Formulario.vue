@@ -1,5 +1,5 @@
 <template>
-  <div class="box">
+  <div class="box formulario">
     <div class="columns">
       <div
         class="column is-8"
@@ -22,10 +22,9 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import Temporizador from './Temporizador.vue';
-
+import Temporizador from './Temporizador.vue'
 export default defineComponent({
-  name: "Formulário",
+  name: "Formulário-Alura",
   emits: ['aoSalvarTarefa'],
   components: {
     Temporizador
@@ -46,7 +45,6 @@ export default defineComponent({
   }
 });
 </script>
-
 <style>
 .formulario {
   color: var(--texto-primario);

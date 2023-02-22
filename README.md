@@ -1,6 +1,6 @@
 # Curso-Vue3
 
-### Sumário
+### Sumário de Projetos
 - [Projeto Alura](https://github.com/beatrizdaddea/Curso-Vue3/tree/main/alura-tracker)
 - [Projeto Vue Mastery](https://github.com/beatrizdaddea/Curso-Vue3/tree/main/Vue-mastery)
 

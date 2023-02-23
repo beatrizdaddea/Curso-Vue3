@@ -1,13 +1,14 @@
 <template>
   <main class="columns is-gapless is-multiline" :class="{ 'modo-escuro' : modoEscuro}">
     <div class="column is-one-quarter">
-      <BarraLateral @aoAlterarModo="alterarModo"/>
+      <BarraLateral class= "barra-lateral" @aoAlterarModo="alterarModo"/>
     </div>
     <div class="column is-three-quarters conteudo">
       <Notificacoes />
       <router-view></router-view>
     </div>
   </main>
+  
 </template>
 
 <script lang="ts">
@@ -40,7 +41,7 @@ main {
   --texto-primario: #000;
 }
 main.modo-escuro {
-  --bg-primario: #2b2d42;
+  --bg-primario: #17171b;
   --texto-primario: #ddd;
 }
 .lista {

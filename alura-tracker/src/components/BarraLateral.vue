@@ -11,14 +11,17 @@
         <li>
           <router-link to="/" class="link">
             <i class="fas fa-tasks"></i>
-            tarefas
+            Tarefas
           </router-link>
         </li>
         <li>
           <router-link to="/projetos" class="link">
             <i class="fas fa-project-diagram"></i>
-            projetos
+            Projetos
           </router-link>
+        </li>
+        <li>
+          <ToDoList/>
         </li>
       </ul>
     </nav>
@@ -27,10 +30,14 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import ToDoList from './ToDoList.vue';
 
 export default defineComponent({
   name: "BarraLateral",
   emits: ['aoAlterarModo'],
+  components: {
+      ToDoList,
+  },
   data () {
     return {
       modoEscuro: false
@@ -57,7 +64,7 @@ strong {
   color: #f95738;
 }
 header {
-  background: #0d3b66;
+  background: #ffc8e0;
   width: 100%;
   height: 100vh;
   padding: 2rem;
@@ -71,12 +78,12 @@ header {
   margin: 8px 0;
 }
 .link {
-  color: #fff;
+  color: #000000;
 }
 .link:hover {
-  color: #FAF0CA;
+  color: #7c7c7c;
 }
 .link.router-link-active {
-  color: #FAF0CA;
+  color: #000000;
 }
 </style>

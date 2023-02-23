@@ -43,14 +43,14 @@ export default defineComponent({
   components: {
     Temporizador,
   },
-  data () {
+  data () { 
     return {
       descricao: '',
-      idProjeto: ''
+      idProjeto: ''      
     }
   },
   methods: {
-    salvarTarefa (tempoEmSegundos: number) : void {
+    salvarTarefa (tempoEmSegundos: number) : void {    
       this.$emit('aoSalvarTarefa', {
         duracaoEmSegundos: tempoEmSegundos,
         descricao: this.descricao,

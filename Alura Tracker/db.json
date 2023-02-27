@@ -9,8 +9,12 @@
       "nome": "ByteBank 2.0"
     },
     {
-      "nome": "teste",
-      "id": 3
+      "id": 3,
+      "nome": "Estudando padrões de projeto"
+    },
+    {
+      "nome": "Teste",
+      "id": 4
     }
   ],
   "tarefas": [
@@ -25,7 +29,7 @@
     },
     {
       "duracaoEmSegundos": 2,
-      "descricao": "Refatoração do vuex",
+      "descricao": "Refatoração do vuex 4",
       "projeto": {
         "id": 1,
         "nome": "Alura Tracker 3.0"
@@ -40,6 +44,15 @@
         "id": 2
       },
       "id": 3
+    },
+    {
+      "duracaoEmSegundos": 7,
+      "descricao": "Teste",
+      "projeto": {
+        "id": 3,
+        "nome": "Estudando padrões de projeto"
+      },
+      "id": 4
     }
   ]
 }

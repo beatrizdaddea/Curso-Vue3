@@ -17,6 +17,10 @@ npm install
 npm run serve
 ```
 
+```
+ json-server --watch db.json
+```
+
 ### Compiles and minifies for production
 ```
 npm run build
@@ -31,3 +35,4 @@ npm run lint
 
 - [Vue3 Doc](https://vuejs.org/guide/introduction.html)
 - [Curso Vue Mastery](https://www.vuemastery.com/)
+- [Tracker](https://vuejsexamples.com/tag/tracker/)

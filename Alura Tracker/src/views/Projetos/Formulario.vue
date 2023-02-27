@@ -20,9 +20,12 @@
 <script lang="ts">
 import { useStore } from "@/store";
 import { defineComponent } from "vue";
+
 import { TipoNotificacao } from "@/interfaces/INotificacao";
+
 import useNotificador from "@/hooks/notificador";
 import { ALTERAR_PROJETO, CADASTRAR_PROJETO } from "@/store/tipo-acoes";
+
 export default defineComponent({
   name: "Formulario",
   props: {
@@ -32,7 +35,7 @@ export default defineComponent({
   },
   mounted() {
     if (this.id) {
-      const projeto = this.store.state.projetos.find(
+      const projeto = this.store.state.projeto.projetos.find(
         (proj) => proj.id == this.id
       );
       this.nomeDoProjeto = projeto?.nome || "";

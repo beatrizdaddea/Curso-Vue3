@@ -11,13 +11,13 @@
         <li>
           <router-link to="/" class="link">
             <i class="fas fa-tasks"></i>
-            Tarefas
+            tarefas
           </router-link>
         </li>
         <li>
           <router-link to="/projetos" class="link">
             <i class="fas fa-project-diagram"></i>
-            Projetos
+            projetos
           </router-link>
         </li>
         <li>
@@ -56,6 +56,7 @@ export default defineComponent({
   }
 });
 </script>
+
 <style scoped>
 h1 {
   text-align: center;

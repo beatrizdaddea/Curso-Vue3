@@ -6,7 +6,7 @@
 
 # alura-tracker
  Aplicação responsável por controlar o tempo gasto em cada tarefa. Por exemplo, podemos vir no Alura Tracker e colocar "Estudar Vue 3". Dou o "Play", o cronômetro vai começar a contar quanto tempo levou para executar a tarefa. 
- 
+
 ## Project setup
 ```
 npm install
@@ -31,8 +31,9 @@ npm run build
 npm run lint
 ```
 
-## Documentação 
+## Documentação
 
 - [Vue3 Doc](https://vuejs.org/guide/introduction.html)
 - [Curso Vue Mastery](https://www.vuemastery.com/)
 - [Tracker](https://vuejsexamples.com/tag/tracker/)
+- [Curso Hora de Codar - Matheus Battisti](https://www.youtube.com/playlist?list=PLnDvRpP8BnezDglaAvtWgQXzsOmXUuRHL)

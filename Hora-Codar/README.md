@@ -10,7 +10,7 @@
 - [x]  Aula 6 - Dados em Componentes
 - [x]  Aula 7 - Lifecycle Hooks
 - [x]  Aula 8 - Hierarquia de Componentes
-- [ ]  Aula 9 - Diretivas
+- [x]  Aula 9 - Diretivas
 - [ ]  Aula 10 - Atributos Dinâmicos
 - [ ]  Aula 11 - Métodos
 - [ ]  Aula 12 - CSS scoped e global

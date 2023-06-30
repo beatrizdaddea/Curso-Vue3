@@ -12,7 +12,7 @@
 - [x]  Aula 8 - Hierarquia de Componentes
 - [x]  Aula 9 - Diretivas
 - [x]  Aula 10 - Atributos Dinâmicos
-- [ ]  Aula 11 - Métodos
+- [x]  Aula 11 - Métodos
 - [ ]  Aula 12 - CSS scoped e global
 - [ ]  Aula 13 - Renderização de Listas
 - [ ]  Aula 14 - Eventos

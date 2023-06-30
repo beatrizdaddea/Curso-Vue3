@@ -27,6 +27,11 @@
             this.nome = "Pedro"
             this.trabalho = "Front End"
         }, 2000);
+    },
+    methods:{
+      lifeCycle(){
+        console.log("Executou");
+      }
     }
 
     }

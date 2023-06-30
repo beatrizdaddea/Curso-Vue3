@@ -13,7 +13,7 @@
 - [x]  Aula 9 - Diretivas
 - [x]  Aula 10 - Atributos Dinâmicos
 - [x]  Aula 11 - Métodos
-- [ ]  Aula 12 - CSS scoped e global
+- [x]  Aula 12 - CSS scoped e global
 - [ ]  Aula 13 - Renderização de Listas
 - [ ]  Aula 14 - Eventos
 - [ ]  Aula 15 - Múltiplos Eventos

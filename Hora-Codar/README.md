@@ -14,7 +14,7 @@
 - [x]  Aula 10 - Atributos Dinâmicos
 - [x]  Aula 11 - Métodos
 - [x]  Aula 12 - CSS scoped e global
-- [ ]  Aula 13 - Renderização de Listas
+- [x]  Aula 13 - Renderização de Listas
 - [ ]  Aula 14 - Eventos
 - [ ]  Aula 15 - Múltiplos Eventos
 - [ ]  Aula 16 - Reutilização de Componentes

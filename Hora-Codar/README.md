@@ -15,7 +15,7 @@
 - [x]  Aula 11 - Métodos
 - [x]  Aula 12 - CSS scoped e global
 - [x]  Aula 13 - Renderização de Listas
-- [ ]  Aula 14 - Eventos
+- [x]  Aula 14 - Eventos
 - [ ]  Aula 15 - Múltiplos Eventos
 - [ ]  Aula 16 - Reutilização de Componentes
 - [ ]  Aula 17 - Utilizando o props

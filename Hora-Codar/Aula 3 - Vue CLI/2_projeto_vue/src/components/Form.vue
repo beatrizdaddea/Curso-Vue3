@@ -12,8 +12,6 @@
             <Submit/>
         </div>
     </form>
-    <p> Conteúdo</p>
-    <p> Conteúdo</p>
 
     </div>
 </template>

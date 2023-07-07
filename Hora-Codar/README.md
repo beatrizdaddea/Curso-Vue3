@@ -18,7 +18,7 @@
 - [x]  Aula 14 - Eventos
 - [x]  Aula 15 - Múltiplos Eventos
 - [x]  Aula 16 - Reutilização de Componentes
-- [ ]  Aula 17 - Utilizando o props
+- [x]  Aula 17 - Utilizando o props
 - [ ]  Aula 18 - Emit
 ## Referência
 

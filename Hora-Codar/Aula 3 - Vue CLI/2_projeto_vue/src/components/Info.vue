@@ -1,5 +1,6 @@
 <template>
     <div>
+        
         <p v-if ="esta_trabalhando"> Estou trabalahndo no momento.</p>
         <p v-else> Estou buscando novas oportunidades.</p>
         <p> Utilizo as seguintes tecnologias para back-end: </p>
@@ -26,11 +27,14 @@ import Picture from './Picture'
         components: {
             Picture,
         },
+        props: {
+            email: String,
+        },
         data(){
             return{
                 esta_trabalhando: false,
                 mostrar_email: true,
-                email: 'email@mail.com',
+                // email: 'email@mail.com',
                 meu_link: 'https://google.com',
                 textoBotao: 'Mostrar Email',
                 backend_tecnologies:["JavaScript", "PHP", "Phyton"],

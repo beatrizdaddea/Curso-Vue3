@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2> Está é a descrição da pessoa: {{ nome }}</h2>
-        <Info/>
+        <Info :email = "email"/>
         <Form/>
     </div>
 </template>
@@ -18,7 +18,8 @@ import Form from './Form.vue'
         },
         data(){
             return{
-                nome: "Beatriz"
+                nome: "Beatriz",
+                email: "b_email@mail.com"
             }
         }
     }

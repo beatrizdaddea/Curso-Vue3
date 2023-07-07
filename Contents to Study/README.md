@@ -7,7 +7,7 @@
 - [x]  Components
 - [x]  Render, Views e Router
 - [x]  Eventos de página, Computed Properties e Watchers
-- []  Nuxt.js e Vuex
+- [x]  Nuxt.js e Vuex
 - [x]  Constrói aplicações em Vue
 
 ## RoadMap Vue

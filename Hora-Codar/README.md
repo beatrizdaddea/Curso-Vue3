@@ -19,7 +19,7 @@
 - [x]  Aula 15 - Múltiplos Eventos
 - [x]  Aula 16 - Reutilização de Componentes
 - [x]  Aula 17 - Utilizando o props
-- [ ]  Aula 18 - Emit
+- [x]  Aula 18 - Emit
 ## Referência
 
  - [Vue3 Doc](https://vuejs.org/guide/introduction.html)
